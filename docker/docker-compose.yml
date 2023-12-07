@@ -22,7 +22,7 @@ services:
       - backend
     environment:
       MONGO_INITDB_ROOT_USERNAME: root
-      MONGO_INITDB_ROOT_PASSWORD: root123
+      MONGO_INITDB_ROOT_PASSWORD: jeff123
     volumes:
       - /home/gomez/bd/mongodb_data:/data/db
 
